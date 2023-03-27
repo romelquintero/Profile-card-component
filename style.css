@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 37vh, left 49vw top 51.5vh;
+}
+
+.card-container {
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 35rem;
+  text-align: center;
+  border-radius: 1.4rem;
+  overflow: hidden;
+}
+
+.bio-img {
+  position: absolute;
+  translate: -50% -52%;
+  border-radius: 50%;
+  border: 0.5rem solid #fff;
+}
+
+.bottom-section {
+  text-align: center;
+  margin-top: 7.2rem;
+}
+
+.bottom-section h1 {
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+}
+
+.bottom-section h1 span {
+  color: #6b7082;
+  font-weight: 400;
+}
+
+.place {
+  color: #6b7082;
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+hr {
+  border: 0.5px solid #e8e9ec;
+  margin-top: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.6rem;
+  margin-bottom: 2rem;
+}
+
+.stats h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.9rem;
+}
+
+.stats span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6b7082;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}

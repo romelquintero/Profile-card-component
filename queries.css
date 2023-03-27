@@ -1,0 +1,9 @@
+@media (max-width: 24em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    background-size: 70rem 70rem;
+    background-position: right 35vw bottom 60vh, left 49vw top 51.5vh;
+  }
+} ;
